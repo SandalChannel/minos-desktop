@@ -1,4 +1,4 @@
-name: Vanilla Desktop
+name: MinOS Desktop
 id: desktop
 
 stages:
@@ -6,7 +6,7 @@ stages:
   base: ghcr.io/sandalchannel/core:dev
   singlelayer: false
   labels:
-    maintainer: Vanilla OS Contributors
+    maintainer: Minute Games, Vanilla OS Contributors
   args:
     DEBIAN_FRONTEND: noninteractive
   runs:
