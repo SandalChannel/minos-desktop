@@ -1,9 +1,13 @@
-# Vanilla OS Desktop Image
+# MinOS
 
-Containerfile for building a Vanilla OS Desktop image.
+MinOS is a set of custom Vanilla OS images that use Debian Stable as a base, rather than using Debian Sid snapshots. It's still all of the immutable glory of Vanilla OS, but with a more stable (if slightly older) base.
 
-This image is based on top of [`vanillaos/core`](https://github.com/Vanilla-OS/core-image/pkgs/container/core) and offers the default
-Vanilla OS Desktop experience with GNOME.
+# MinOS Desktop Image
+
+Containerfile for building a MinOS/VanillaOS Desktop image.
+
+This image is based on top of [`minos/core`](https://github.com/SandalChannel/minos-core) and offers the default
+MinOS/VanillaOS Desktop experience with GNOME.
 
 ## Build
 
